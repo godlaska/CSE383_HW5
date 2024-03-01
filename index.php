@@ -10,77 +10,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <style>
-        /* Inline CSS for the submit button */
-        #submitBtn {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            border-radius: 8px;
-            cursor: pointer;
-        }
 
-        /* CSS for the footer */
-        footer {
-            margin-top: 20px;
-            bottom: 0px;
-            width: 100%;
-            background-color: #f5f5f5;
-            text-align: center;
-	    padding: 10px 0;
-        }
+	<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
 
-        /* CSS for the image */
-        .image-container {
-            margin-bottom: 60px;
-        }
-
-        .image {
-       		width: 98%;
-		height: auto;
-		max-height: 300px;
-		padding-left: 1%;
-		padding-right: 1%;
-		padding-bottom: 20px;
-        }
-
-	/* CSS for h1 */
-	h1 {
-		color: black;
-		cursor: copy;
-		padding-left: 1%; /* Match the panoramic spacing */
-	}
-
-	h1:hover { 
-		animation: color-cycle 8s infinite;
-	}
-	
-	@keyframes color-cycle {
-            0% {
-                color: black;
-            }
-            33% {
-                color: blue;
-            }
-            66% {
-                color: purple;
-            }
-            100% {
-                color: black;
-            }
-	}
-
-	 /* Adjusting checkboxes */
-        .form-check-input {
-	    	width: auto; /* Make the checkbox size automatic */
-		padding-left: 20px;
-        }
-    </style>
 </head>
 <body>
     <h1>Keigen Godlaski</h1>

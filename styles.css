@@ -1,0 +1,66 @@
+/* styles.css */
+#submitBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+    bottom: 0px;
+    width: 100%;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.image-container {
+    margin-bottom: 60px;
+}
+
+.image {
+    width: 98%;
+    height: auto;
+    max-height: 300px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: black;
+    cursor: copy;
+    padding-left: 1%; /* Match the panoramic spacing */
+}
+
+h1:hover { 
+    animation: color-cycle 8s infinite;
+}
+
+@keyframes color-cycle {
+    0% {
+        color: black;
+    }
+    33% {
+        color: blue;
+    }
+    66% {
+        color: purple;
+    }
+    100% {
+        color: black;
+    }
+}
+
+.form-check-input {
+    width: auto; /* Make the checkbox size automatic */
+    padding-left: 20px;
+}
+
